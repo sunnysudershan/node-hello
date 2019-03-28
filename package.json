@@ -1,0 +1,27 @@
+{
+  "name": "node-hello",
+  "main": "app.js",
+  "description": "A simple node.js app that says hello",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rsriniva/node-hello.git"
+  },
+  "author": "Ravi Srinivasan <ravis@redhat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/rsriniva/node-hello/issues"
+  },
+  "homepage": "http://github.com/rsriniva/node-hello"
+}
+
